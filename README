@@ -1,0 +1,46 @@
+# AI-Workshop-IT-207
+EnhancedGrep
+Section 1 — Command Description
+What My Tool Does
+
+My tool is called enhancedGrep. It is a simple version of the Linux grep command. It searches a file for a word and displays the lines where that word is found. It also counts how many matching lines were found.
+
+How to Run It
+
+I run the program from the terminal using:
+
+node enhancedGrep.js <word> <filename>
+
+For example:
+
+node enhancedGrep.js error sample.txt
+
+This searches sample.txt for the word error.
+
+What Commands It Combines
+
+My command combines ideas from two Linux commands:
+
+grep — searches a file for a specific word.
+wc — counts information about a file or text.
+
+My version combines these ideas by searching for a word, displaying the matching lines, and counting the matches.
+
+Section 2 — AI-Assisted Programming
+What I Asked AI
+
+I asked AI questions about how grep works and how I could test my own Node.js version. I also asked AI to suggest test scenarios and possible edge cases.
+
+Where AI Helped
+
+AI helped me understand how process.argv could be used to get the search word and filename from the command line. It also helped me think of different situations to test, such as when the word is not found or the file does not exist.
+
+Where I Had to Think Independently
+
+I had to decide how I wanted my command to work and what information it should display. I also had to run the program myself, look at the results, and make changes when something did not work as expected.
+
+What AI Got Wrong or Missed
+
+AI could not know the exact files and setup in my project. I had to make sure the code worked with my own filenames and terminal setup. Testing the program myself helped me find things that needed to be adjusted.
+
+Overall, AI helped me understand the process and come up with ideas for testing, but I still had to test and understand what my program was doing.
